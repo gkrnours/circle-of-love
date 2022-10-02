@@ -1,0 +1,14 @@
+[tool.isort]
+multi_line_output=3
+include_trailing_comma=true
+
+[tool.pylint.MASTER]
+fail-under=9.5
+
+[tool.pylint."MESSAGES CONTROL"]
+disable=[
+    "no-self-use",
+]
+
+[tool.autopep8]
+max_line_length = 100

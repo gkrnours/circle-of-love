@@ -1,0 +1,7 @@
+include setup.py
+include setup.cfg
+include README.md
+include pyproject.toml
+include MANIFEST.in
+
+graft src
